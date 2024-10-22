@@ -1,0 +1,89 @@
+.header_img{
+  width:300px;
+  height:75px;
+}
+
+header ul{
+  display:flex;
+  flex-wrap:wrap;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: black;
+  color:white;
+}
+
+header  li{
+  list-style: none;
+  margin-right: 60px;
+}
+
+main{
+  display: flex;
+}
+
+.left{
+    width: 68%;
+    margin-right: 2%;
+}
+
+.right{
+  width:30%;
+}
+
+.title{
+  border-left: 4px solid black;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+}
+
+.main_img{
+  width:100%;
+}
+
+
+.box{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  gap:30px;
+  padding: 30px;
+  background-color: lightgray;
+}
+
+.item{
+  width:22%;
+}
+
+.item img{
+  width:100%;
+}
+
+.item_text{
+  text-align: center;
+}
+
+.right {
+  padding-top: 13px;
+}
+.right .link_title {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+.right ul {
+  margin: 0;
+  padding: 0;
+}
+.right li {
+  list-style: none;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 30px; /* main側に margin-bottomでも良い */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}

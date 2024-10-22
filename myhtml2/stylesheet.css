@@ -1,0 +1,208 @@
+body{
+  margin: 0;
+  font-family:"Hiragino Kaku Gothic ProN";
+}
+
+.container{
+  width: 1170px;
+  padding:0 15px 0 15px;
+  margin:auto;
+}
+
+.top-wrapper{
+  padding:180px 0 100px 0;
+  background-image:url(10.png);
+  color:white;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  text-align: center;
+}
+
+.top-wrapper h1{
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.bold-text{
+  font-weight: 1000;
+}
+
+.btn {
+  padding :8px 24px 8px 24px;
+  color :white;
+  display :inline-block;
+  border-radius: 4px;
+ }
+
+.signup {
+  background-color: #239b76;
+  box-shadow:0 7px #1a7940;
+}
+
+.signup:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right:10px;
+  box-shadow:0 7px #191970;
+}
+
+.facebook:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.x {
+  background-color:#696969;
+  box-shadow:0 7px #000000;
+}
+
+.x:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn-wrapper{
+  margin:20px 0;
+}
+
+.btn-wrapper p{
+  margin:10px 0;
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.fa {
+  margin-left: 5px;
+}
+
+header{
+  height: 65px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left{
+  float:left;
+}
+
+.header-right{
+  float:right;
+  background-color:rgba(255, 255, 255, 0.3);
+  transition: all 0,5s;
+}
+
+.header-right:hover{
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+  line-height: 65px;
+  padding:0 25px;
+  color:white;
+  display: block;
+}
+
+.lesson-wrapper{
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading{
+  padding:60px 0 0 0;
+  color: white;
+}
+
+.heading2{
+  padding:60px 0 30px 0;
+  color: white;
+}
+
+.heading h2{
+  font-weight: bolder;
+  color:#000000;
+}
+
+.heading h3{
+  font-weight: normal;
+  color:#000000;
+}
+
+.lesson{
+  float: left;
+  width:25%;
+}
+
+.lesson-icon{
+  position:relative;
+}
+
+.lesson-icon p{
+  position:absolute;
+  top:75px;
+  width:100%;
+  color:white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.txt-contents{
+  width: 80%;
+  display:inline-block;
+  margin-top:20px;
+  font-size:12px;
+  color:#b3aeb5;
+}
+
+.message{
+  background-color: #5dca88;
+  padding:15px 40px 15px 40px;
+  box-shadow:0 7px #1a7940;
+}
+
+.message-wrapper{
+  background-image:url(cubes-2560x2560-grid-colorful-neon-lights-3d-hd-5k-14329_5583c9d5836b5927411b837413bf8517_raw.jpg);
+  border-bottom:1px solid #eee;
+  padding-bottom:80px;
+  text-align:center;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer{
+  background-color: #000000;
+}
+
+footer img {
+  width: 130px;
+  }
+
+footer p {
+  color: white;
+  font-size: 12px;
+}
+
+
+footer {
+  padding-top: 30px;
+}
